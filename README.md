@@ -105,3 +105,26 @@ Uma Web API para visualizar o conteúdo do seu DB...
 ```bash
 yarn prisma studio
 ```
+
+# Usando WebSocket
+
+API de comunicação síncrona
+
+```bash
+yarn add socket.io
+
+# install dtypedefs to uso socket.io
+yarn add @types/socket.io -D
+```
+
+# Usando Cors
+
+Possui a responsabilidade de permitir ou negar uma requisição, dentro da aplicação;
+Através de permissões que devemos habilitar dentro do Cors, será possível permitir que outras fontes possam se conectar à nossa aplicação, tanto pelo http ou io.
+
+```bash
+yarn add cors
+
+# install typedefs to use...
+yarn add @types/cors -D
+```
